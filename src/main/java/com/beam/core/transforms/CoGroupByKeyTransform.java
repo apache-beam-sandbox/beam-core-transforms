@@ -18,7 +18,7 @@ import org.apache.beam.sdk.values.TupleTag;
 public class CoGroupByKeyTransform {
 
 	public static void main(String[] args) {
-		
+		//Testing
 		List<KV<String,String>> emails = 
 				Arrays.asList(KV.of("amy","amy@example.com"),
 						KV.of("carl", "carl@example.com"),

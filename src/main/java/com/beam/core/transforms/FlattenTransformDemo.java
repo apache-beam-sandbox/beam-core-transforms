@@ -32,6 +32,8 @@ public class FlattenTransformDemo {
 		
 		mergedPColls.apply("display",ParDo.of(new DisplayUpperCaseDoFn()));
 		
+		System.out.println("Test");
+		
 		pipeline.run().waitUntilFinish();
 	}
 

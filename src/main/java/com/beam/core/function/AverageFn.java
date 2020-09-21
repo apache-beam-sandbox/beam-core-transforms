@@ -4,6 +4,7 @@ import org.apache.beam.sdk.coders.DefaultCoder;
 import org.apache.beam.sdk.transforms.Combine.CombineFn;
 
 public class AverageFn extends CombineFn<Integer, AverageFn.Accum, Double> {
+	//Test
 
 	@DefaultCoder(AvroCoder.class)
 	public static class Accum {
